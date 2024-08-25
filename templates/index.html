@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator Chatbox</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <div class="chatbox">
+        <div class="chatbox-header">
+            <h2 style="color:black;">AI Image Generator</h2>
+        </div>
+        <div class="chatbox-body">
+            <div class="input-group">
+                <input id="input" type="text" placeholder="Enter text or use speech..." />
+                <button id="speak-btn" class="speak-btn">🎤 Speak</button>
+            </div>
+
+            <div class="model-selection">
+                <button id="generate-btn1" class="generate-btn glow-on-hover" data-model="model1">Generate with Model 1</button>
+                <button id="generate-btn2" class="generate-btn glow-on-hover" data-model="model2">Generate with Model 2</button>
+            </div>
+
+            <!-- Loader Element -->
+            <div class="loader-container" id="loader-container">
+                <span class="loader" id="loader"></span>
+            </div>
+
+            <!-- Image and Time Container -->
+            <div class="chatbox-footer">
+                <div class="image-container">
+                    <img id="image" alt="Generated image" />
+                    <p id="time-taken" class="time-taken"></p>
+
+                </div>
+            </div>
+            <hr />   <hr />   <hr />
+
+        </div>
+        <hr / >  <hr / >
+        <hr / >  <hr / >
+
+    </div>
+   
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
