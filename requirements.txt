@@ -1,6 +1,6 @@
 flask
 huggingface_hub
-PIL
+Pillow
 io
 os
 datetime
