@@ -72,5 +72,5 @@ Contact
 For any questions or inquiries, feel free to reach out:
 
 Your Name: tirumalasettybharathchandu@gmail.com
-GitHub: [Your GitHub Profile](https://github.com/BharathChandu3)
+GitHub: (https://github.com/BharathChandu3)
 
