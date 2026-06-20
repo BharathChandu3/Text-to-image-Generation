@@ -8,8 +8,8 @@ import datetime
 app = Flask(__name__)
 
 
-client1 = InferenceClient(token="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")
-client2 = InferenceClient(token="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")
+client1 = InferenceClient(token="#API Key")
+client2 = InferenceClient(token="#API Key")
 
 
 IMAGE_DIR = 'generated_images'
